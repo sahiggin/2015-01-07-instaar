@@ -96,14 +96,14 @@ This is a special one-day workshop held in conjunction with the CSDMS
 <h2>Schedule</h2>
 
 <table class="table table-striped">
-  <tr>  <td>08:00</td>  <td>Fundamentals of Python</td> </tr>
+  <tr>  <td>08:00</td>  <td><a href="lessons/jk-python/intro.html">Fundamentals of Python</a></td> </tr>
   <tr>  <td></td>       <td>Coffee will be served at 9:45.</td> </tr>
   <tr>  <td>10:00</td>  <td>Python for Earth Science</td> </tr>
   <tr>  <td>12:00</td>  <td>Lunch break</td> </tr>
-  <tr>  <td>13:00</td>  <td>Scientific Software Engineering in Python</td> </tr>
-  <tr>  <td>14:00</td>  <td>Introduction to Version Control with Git</td> </tr>
+  <tr>  <td>13:00</td>  <td><a href="lessons/jk-python/testing.html">Scientific Software Engineering in Python</a></td> </tr>
+  <tr>  <td>14:00</td>  <td><a href="intermediate/git/index.html">Introduction to Version Control with Git</a></td> </tr>
   <tr>  <td></td>       <td>Coffee will be served at 15:45.</td> </tr>
-  <tr>  <td>16:00</td>  <td>The Git Developer's Workflow</td> </tr>
+  <tr>  <td>16:00</td>  <td><a href="intermediate/git/index.html">The Git Developer's Workflow</a></td> </tr>
   <tr>  <td>17:00</td>  <td>Wrap-up</td> </tr>
 </table>
 
@@ -125,3 +125,19 @@ This is a special one-day workshop held in conjunction with the CSDMS
 </p>
 
 {% include setup.html %}
+
+
+<h3>Testing your setup</h3>
+
+<p>To test that your system is configured properly, complete the
+following four steps. If any of these do not succeed, or if you run
+into any other trouble, please email Aron Ahmadia immediately.</p>
+
+<ul>
+	<li>Open a terminal window. On Windows, open Git Bash. On a Mac, go to your Applications folder, Utilities subfolder, and open the application called Terminal. On the Linux virtual machine, double click on the Terminal shortcut on the desktop.</li>
+	<li>Type the word <code>ipython</code> and hit Return. After a few seconds, you should see some text printed on your screen that starts with a line like "Python 2.7.6 | Anaconda 1.9.0". Hit <code>Ctrl-d</code> twice to return to the command line.</li>
+	<li>Type <code>nano --version</code> and hit Return. You should see some text printed on your screen that starts with something like "GNU nano version 2.0.6".</li>
+	<li>Type <code>git --version</code> and hit Return. You should be see something like "git version 1.8.3.4" printed on your screen.</li>
+</ul>
+
+<hr/>
