@@ -1,17 +1,17 @@
 ---
 layout: bootcamp
 root: .
-venue: Community Surface Dynamics Modeling System Meeting
-address: Room 620, Administrative and Research Center, 3100 Marine St. Boulder, CO 80309
+venue: Field Research Facility
+address: 1261 Duck Road Kitty Hawk, NC 27949-4472
 country: United-States
-humandate: May 23, 2014
+humandate: August 5-7, 2014
 humantime: 8:00 am - 5:00 pm
-startdate: 2014-05-23
-enddate: 2014-05-23
-latlng: 40.013187,-105.253465
+startdate: 2014-08-05
+enddate: 2014-08-07
+latlng: 36.192977, -75.761568
 registration: restricted
-instructor: ["Aron Ahmadia", "Ted Hart"]
-contact: admin@software-carpentry.org
+instructor: ["Aron Ahmadia", "Chris Kees"]
+contact: aron@ahmadia.net
 ---
 <!--
     Edit the values in the parameter block above to be appropriate for your bootcamp.
@@ -25,7 +25,7 @@ contact: admin@software-carpentry.org
   is to help scientists and engineers become more productive
   by teaching them basic lab skills for computing
   like program design, version control, data management, and task automation.
-  This two-day hands-on bootcamp will cover basic concepts and tools;
+  This three-day hands-on bootcamp will cover basic concepts and tools;
   participants will be encouraged to help one another
   and to apply what they have learned to their own research problems.
 </p>
@@ -45,9 +45,7 @@ contact: admin@software-carpentry.org
 -->
 <p>
   <strong>Who:</strong>
-This is a special one-day workshop held in conjunction with the CSDMS
-    Annual Meeting.  Working knowledge of command line tools is
-    assumed. 
+This is an internal training for FRF members.
 </p>
 
 <!--
@@ -95,17 +93,50 @@ This is a special one-day workshop held in conjunction with the CSDMS
 -->
 <h2>Schedule</h2>
 
-<table class="table table-striped">
-  <tr>  <td>08:00</td>  <td><a href="lessons/jk-python/intro.html">Fundamentals of Python</a></td> </tr>
-  <tr>  <td></td>       <td>Coffee will be served at 9:45.</td> </tr>
-  <tr>  <td>10:00</td>  <td>Python for Earth Science</td> </tr>
-  <tr>  <td>12:00</td>  <td>Lunch break</td> </tr>
-  <tr>  <td>13:00</td>  <td><a href="lessons/jk-python/testing.html">Scientific Software Engineering in Python</a></td> </tr>
-  <tr>  <td>14:00</td>  <td><a href="intermediate/git/index.html">Introduction to Version Control with Git</a></td> </tr>
-  <tr>  <td></td>       <td>Coffee will be served at 15:45.</td> </tr>
-  <tr>  <td>16:00</td>  <td><a href="intermediate/git/index.html">The Git Developer's Workflow</a></td> </tr>
-  <tr>  <td>17:00</td>  <td>Wrap-up</td> </tr>
-</table>
+<div class="row-fluid">
+  <div class="span4">
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr>  <td>08:00</td>  <td>Setup Help</a></td> </tr>
+      <tr>  <td>09:00</td>  <td>Introduction and Overview</td> </tr>
+      <tr>  <td>09:30</td>  <td><a href="lessons/jk-shell/tutorial.html">Automating Your Actions</a></td> </tr>
+      <tr>  <td>10:30</td>  <td>Break</td> </tr>
+      <tr>  <td>10:45</td>  <td><a href="lessons/jk-shell/tutorial.html">Functions and Pipelines</a></td> </tr>
+      <tr>  <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr>  <td>13:00</td>  <td><a href="lessons/jk-python/intro.html">Fundamentals of Python</a></td> </tr>
+      <tr>  <td>14:30</td>  <td>Break.</td> </tr>
+      <tr>  <td>14:45</td>  <td><a href="lessons/jk-python/intro.html">Fundamentals of Python</a></td> </tr>
+      <tr>  <td>16:30</td>  <td>Daily Wrap-up</a></td> </tr>
+    </table>
+  </div>
+  <div class="span4">
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+      <tr>  <td>09:00</td>  <td><a href="intermediate/git/index.html">Introduction to Version Control with Git</a></td> </tr>
+      <tr>  <td>10:30</td>  <td>Break</td> </tr>
+      <tr>  <td>10:45</td>  <td><a href="intermediate/git/index.html">The Git Developer's Workflow</a></td> </tr>
+      <tr>  <td>13:00</td>  <td>Introduction to the IPython Notebook (Jupyter)</td> </tr>
+      <tr>  <td>13:30</td>  <td>Scientific Computing with NumPy and SciPy</td> </tr>
+      <tr>  <td>14:30</td>  <td>Break.</td> </tr>
+      <tr>  <td>14:45</td>  <td>Visualization with Matplotlib</td> </tr>
+      <tr>  <td>15:15</td>  <td>Advanced Jupyter: Widgets</td> </tr>
+      <tr>  <td>16:00</td>  <td>Advanced Jupyter: The SPOD Tools</td> </tr>
+      <tr>  <td>16:30</td>  <td>Daily Wrap-up</a></td> </tr>
+    </table>
+  </div>
+  <div class="span4">
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+      <tr>  <td>09:00</td>  <td><a href="lessons/jk-python/testing.html">Testing in Python</a></td> </tr>
+      <tr>  <td>10:30</td>  <td>Break.</td> </tr>
+      <tr>  <td>10:45</td>  <td>The Scientific Software Engineer's Toolbox: Consoles, IDEs, Notebooks, and when to use them
+      <tr>  <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr>  <td>13:00</td>  <td>Distributed, Continuous Development: Git, GitHub, Slack, and Travis
+      <tr>  <td>14:00</td>  <td>Group Projects
+      <tr>  <td>16:00</td>  <td>Training Wrap-up</td> </tr>
+    </table>
+  </div>
+</div>
 
 <hr/>
 
@@ -117,11 +148,11 @@ This is a special one-day workshop held in conjunction with the CSDMS
 <h2>Setup</h2>
 
 <p>
-  To participate in a Software Carpentry bootcamp, 
+  To participate in this workshop
   you will need working copies of the software described below.
   Please make sure to install everything
   (or at least to download the installers)
-  <em>before</em> the start of your bootcamp.
+  <em>before</em> the start of your workshop.
 </p>
 
 {% include setup.html %}
